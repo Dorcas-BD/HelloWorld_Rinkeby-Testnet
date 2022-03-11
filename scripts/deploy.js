@@ -5,7 +5,7 @@ async function main() {
 
   const hello_world = await HelloWorld.deploy("Hello World!");
 
-  console.log("Contract have deployed to this address: ", hello_world.address);
+  console.log("Contract have been deployed to this address: ", hello_world.address);
 }
 
 main()
