@@ -1,6 +1,11 @@
 async function main() {
   // We get the contract to deploy
   const HelloWorld = await ethers.getContractFactory("HelloWorld");
+
+
+  const hello_world = await HelloWorld.deploy("Hello World!");
+
+  console.log("Contract have deployed to this address: ", hello_world.address);
 }
 
 main()
