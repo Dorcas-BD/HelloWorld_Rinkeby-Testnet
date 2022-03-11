@@ -4,3 +4,4 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 
 
 Deployed contract address:  0x9F83a0Df023E54E948607e7ddD8C6047D31825f2
+Deployed Contract address:  0x3Aff54Cc6879C766B57694c99e4f137dE997d10c
